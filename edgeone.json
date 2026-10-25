@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "agents": {
+    "framework": "langgraph",
+    "timeout": 600
+  },
+  "cloudFunctions": {
+    "nodejs": {
+      "includeFiles": []
+    }
+  }
+}

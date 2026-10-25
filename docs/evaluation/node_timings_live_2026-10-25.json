@@ -1,0 +1,65 @@
+{
+ "A": {
+  "build": "2026-10-23T21-38-formal",
+  "wall_s": 59.4,
+  "node_timings": [
+   {
+    "node": "vision",
+    "ms": 49592
+   },
+   {
+    "node": "generate",
+    "ms": 3581
+   }
+  ],
+  "model_calls": 2,
+  "tokens": 1127,
+  "status": null
+ },
+ "B": {
+  "build": "2026-10-23T21-38-formal",
+  "wall_s": 17.1,
+  "node_timings": [
+   {
+    "node": "vision",
+    "ms": 5332
+   },
+   {
+    "node": "retrieval",
+    "ms": 0
+   },
+   {
+    "node": "generate",
+    "ms": 6852
+   }
+  ],
+  "model_calls": 2,
+  "tokens": 1603,
+  "status": null
+ },
+ "C": {
+  "build": "2026-10-23T21-38-formal",
+  "wall_s": 26.9,
+  "node_timings": [
+   {
+    "node": "vision",
+    "ms": 7033
+   },
+   {
+    "node": "retrieval",
+    "ms": 0
+   },
+   {
+    "node": "generate",
+    "ms": 11887
+   },
+   {
+    "node": "check",
+    "ms": 3009
+   }
+  ],
+  "model_calls": 3,
+  "tokens": 2796,
+  "status": null
+ }
+}

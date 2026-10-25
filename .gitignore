@@ -1,0 +1,44 @@
+# --- editor / OS ---
+.DS_Store
+Thumbs.db
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# --- node ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# --- build output ---
+dist/
+.tef_dist/
+.edgeone/
+
+# --- secrets ---
+.env
+.env.local
+*.key
+*.pem
+
+# --- local scratch / probe artifacts ---
+_body.json
+_pb.json
+_pr.json
+_probe_body.json
+_probe_resp.json
+_resp.json
+_sf_probe.json
+_sf_resp.json
+_vimg_url.txt
+_fix_test.py
+_inspect_captions.py
+batch_out.log
+modes_out.txt
+smoke_result.json
+test_modes_result.json
+test_shortcircuit_result.json
